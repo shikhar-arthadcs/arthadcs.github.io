@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Center Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Data Center Services</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Your Reliable Data Center Partner</h2>
+    <p>Providing state-of-the-art solutions for all your data infrastructure needs.</p>
+    <a href="#services" class="cta-button">Explore Our Services</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a leading provider of colocation, cloud hosting, disaster recovery, and managed IT services. Our secure and scalable data centers are designed to ensure the uptime and safety of your critical business data.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-card">
+      <h3>Colocation</h3>
+      <p>Secure, scalable, and energy-efficient colocation services to house your IT infrastructure with reliability and control.</p>
+    </div>
+    <div class="service-card">
+      <h3>Cloud Hosting</h3>
+      <p>Flexible and scalable cloud hosting solutions, offering high performance and cost-efficiency.</p>
+    </div>
+    <div class="service-card">
+      <h3>Disaster Recovery</h3>
+      <p>Ensure business continuity with our comprehensive disaster recovery services, protecting your data from unexpected disruptions.</p>
+    </div>
+    <div class="service-card">
+      <h3>Managed Services</h3>
+      <p>We offer tailored managed IT services for infrastructure monitoring, maintenance, and optimization to ensure smooth operations.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Data Center Services. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #002f6c;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: #f4f4f4;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero .cta-button {
+  background: #00aaff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .cta-button:hover {
+  background: #0077b3;
+}
+
+/* About Section */
+.about {
+  padding: 40px;
+  background: #fff;
+  text-align: center;
+}
+
+.about p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Services Section */
+.services {
+  background: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.services .service-card {
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  width: 220px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.services .service-card h3 {
+  color: #005f99;
+}
+
+/* Contact Section */
+.contact {
+  background: #e9e9e9;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background: #00aaff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #0077b3;
+}
+
+/* Footer */
+footer {
+  background: #002f6c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
